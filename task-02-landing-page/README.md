@@ -69,6 +69,10 @@ The push fires **only on a valid submit** — never on page load, and never on i
 > [PageSpeed Insights](https://pagespeed.web.dev/) (Mobile tab) and save the screenshot here as
 > `pagespeed-mobile.png`, then reference it below.
 
-![PageSpeed Insights — Mobile](./pagespeed-mobile.png)
+**Result (PageSpeed Insights — Mobile):** Performance **99**, Accessibility 93, Best Practices 100, SEO 100. Core Web Vitals all green (LCP ~0.8s, CLS 0, TBT 0ms).
 
-> Tip: to test, either host the file (GitHub Pages / Netlify drop) and paste the URL into PageSpeed Insights, or use Chrome DevTools → **Lighthouse** (Mobile) locally, which produces an equivalent score for a local file.
+Tested live at: `https://gauravkumar215.github.io/orthonow-assignment/task-02-landing-page/`
+
+![PageSpeed Insights — Mobile scores](./pagespeed-mobile.png)
+
+![PageSpeed Insights — Mobile Core Web Vitals metrics](./pagespeed-metrics.png)
